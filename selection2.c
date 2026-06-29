@@ -2,7 +2,7 @@
 #include <string.h>
 int main(void)
 {
-    char *names[] = {"Alice", "Bob", "Charlie", "Eve"};
+    char *names[] = {"Alice", "Bob", "Charlie","David", "Eve"};
     char *numbers[] = {"123-456-7890", "234-567-8901", "345-678-9012", "456-789-0123", "567-890-1234"};
 
     char name[100];
