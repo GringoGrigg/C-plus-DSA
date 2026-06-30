@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-void selection_sort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
+void selection_sort(int arr[], int k) {
+    for (int i = 0; i < k - 1; i++) {
         int min_index = i;
-        for (int j = i + 1; j < n; j++) {
+        for (int j = i + 1; j < k; j++) {
             if (arr[j] < arr[min_index]) {
                 min_index = j;
             }
