@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #include "sort5.c" // Include selection sort implementation
 
 int main() {
