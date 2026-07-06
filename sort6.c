@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "sort5.c" // Include selection sort implementation
 
 int main() {
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
